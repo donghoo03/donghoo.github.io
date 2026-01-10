@@ -2,18 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://donghoo03.github.io/</loc>
-         <lastmod>2026-01-09</lastmod>
+         <lastmod>2026-01-10</lastmod>
     </url>
     <url>
-         <loc>https://donghoo03.github.io/linux/MkDocs%EB%A1%9C%20GitHub%20Pages%20%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/</loc>
-         <lastmod>2026-01-09</lastmod>
-    </url>
-    <url>
-         <loc>https://donghoo03.github.io/linux/Test_visibility/</loc>
-         <lastmod>2026-01-09</lastmod>
-    </url>
-    <url>
-         <loc>https://donghoo03.github.io/private/linux/test%20nonvisiblity/</loc>
-         <lastmod>2026-01-09</lastmod>
+         <loc>https://donghoo03.github.io/Ubuntu/MkDocs%EB%A1%9C%20Github%20pages%20%EA%B5%AC%EC%B6%95/</loc>
+         <lastmod>2026-01-10</lastmod>
     </url>
 </urlset>

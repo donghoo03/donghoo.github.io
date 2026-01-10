@@ -30,3 +30,28 @@
   100% { transform: translateX(calc(-1 * var(--marquee-distance, 0px))); }
 }
 
+
+/* ===== TOC(오른쪽) 한 줄 + 가로 스크롤 ===== */
+
+/* TOC 링크는 줄바꿈 금지 */
+.md-sidebar--secondary .md-nav__link,
+.md-sidebar--secondary .md-nav__item {
+  white-space: nowrap;
+}
+
+/* TOC 네비 자체에서 가로 스크롤 허용 */
+.md-sidebar--secondary .md-nav {
+  overflow-x: auto;
+}
+
+/* 링크가 스크롤 폭을 늘릴 수 있게 */
+.md-sidebar--secondary .md-nav__link {
+  display: inline-block;
+  max-width: none;
+}
+
+/* (선택) 스크롤바 높이 */
+.md-sidebar--secondary .md-nav::-webkit-scrollbar {
+  height: 6px;
+}
+

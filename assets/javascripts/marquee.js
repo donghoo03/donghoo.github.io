@@ -38,7 +38,7 @@
   }
 
   function refreshAll() {
-    document.querySelectorAll(".md-nav__link").forEach(applyMarquee);
+    document.querySelectorAll(".md-sidebar--primary .md-nav__link").forEach(applyMarquee);
   }
 
   window.addEventListener("load", refreshAll);
